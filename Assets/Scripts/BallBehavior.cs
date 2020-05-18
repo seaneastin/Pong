@@ -15,8 +15,8 @@ public class BallBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        velocity.z = 700f;
-        velocity.x = 700f;
+        velocity.z = -700f;
+        velocity.x = -700f;
 
         rigidbody.AddForce(velocity);
     }

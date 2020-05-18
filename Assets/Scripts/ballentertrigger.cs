@@ -23,11 +23,11 @@ public class ballentertrigger : MonoBehaviour
     {
         ball.transform.position = ballspawner.transform.position;
 
-        Rigidbody ballrb = ball.GetComponent<Rigidbody>();
+        //Rigidbody ballrb = ball.GetComponent<Rigidbody>();
 
-        ballrb.velocity = new Vector3(0f, 0f, 0f);
+        //ballrb.velocity = new Vector3(0f, 0f, 0f);
 
-        ballrb.AddForce(new Vector3(700f, 0f, 700f));
+        //ballrb.AddForce(new Vector3(700f, 0f, 700f));
 
         if (isthislefttrigger)
         {

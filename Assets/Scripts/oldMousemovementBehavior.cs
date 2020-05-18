@@ -6,7 +6,7 @@ using UnityEngine;
 /**
  * the old behavior for letting the player move using the mouse
  */
-public class MousemovementBehavior : MonoBehaviour
+public class oldMousemovementBehavior : MonoBehaviour
 {
     [SerializeField]
     private CharacterController controller;
